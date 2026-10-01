@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="es-MX" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ── SEO ─────────────────────────────────────────────── -->
+  <title>ASCALT Cruz Ambar | Servicio de Ambulancia 24/7 en Altamira, Tamaulipas</title>
+  <meta name="description" content="Servicio de ambulancia 24/7 en Altamira, Tamps. Traslados locales y foráneos, atención prehospitalaria, cobertura de eventos y capacitación. Llama al 833 151 7963.">
+  <meta name="keywords" content="ambulancia Altamira, servicio de ambulancia 24/7, traslados en ambulancia, traslados foráneos, ambulancia Tampico, ambulancia Ciudad Madero, atención prehospitalaria, cobertura médica de eventos, capacitación para empresas, Cruz Ambar, ASCALT, sur de Tamaulipas">
+  <meta name="author" content="ASCALT Cruz Ambar del Sur de Tamaulipas">
+  <meta name="theme-color" content="#06122b">
+  <!-- TODO producción: añadir <link rel="canonical" href="https://TU-DOMINIO.com/"> -->
+
+  <!-- Open Graph / redes sociales -->
+  <meta property="og:title" content="ASCALT Cruz Ambar | Ambulancia 24/7 en Altamira, Tamaulipas">
+  <meta property="og:description" content="Cuando más lo necesitas, ahí estamos. Traslados locales y foráneos, atención prehospitalaria y cobertura de eventos. 833 151 7963.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <!-- TODO producción: og:image requiere URL absoluta (https://TU-DOMINIO.com/img/hero-ambulancia-noche.jpg) -->
+  <meta property="og:image" content="img/hero-ambulancia-noche.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <!-- Datos estructurados (Google Local Business) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EmergencyService",
+    "name": "ASCALT Cruz Ambar del Sur de Tamaulipas",
+    "description": "Servicio de ambulancia 24/7 en Altamira, Tamaulipas: traslados locales y foráneos, atención prehospitalaria, cobertura de eventos y capacitación para empresas, escuelas, industria y comercio.",
+    "telephone": "+52-833-151-7963",
+    "logo": "img/emblema-ascalt.png",
+    "image": "img/hero-ambulancia-noche.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Altamira",
+      "addressRegion": "Tamaulipas",
+      "addressCountry": "MX"
+    },
+    "areaServed": { "@type": "AdministrativeArea", "name": "Sur de Tamaulipas" },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+52-833-264-8656",
+      "contactType": "customer service",
+      "availableLanguage": "Spanish"
+    }
+  }
+  </script>
+
+  <!-- Fonts: Barlow Condensed (titulares) + Inter (texto) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+  <style>.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}</style>
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════
+       LOADER
+  ══════════════════════════════════════════════════════ -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-icon">
+      <i class="fa-solid fa-star-of-life"></i>
+    </div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    <span class="loader-text">Cargando...</span>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════════════════ -->
+  <header id="navbar" role="banner">
+    <div class="container">
+      <div class="nav-inner">
+
+        <a href="#hero" class="nav-logo" aria-label="ASCALT Cruz Ambar del Sur de Tamaulipas — inicio">
+          <div class="nav-logo-icon" aria-hidden="true">
+            <img src="img/emblema-ascalt.png" alt="" width="43" height="46">
+          </div>
+          <div class="nav-logo-copy">
+            <span>ASCALT</span>
+            <span>CRUZ AMBAR</span>
+          </div>
+        </a>
+
+        <nav aria-label="Navegación principal">
+          <ul class="nav-links">
+            <li><a href="#why">Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#proceso">Cómo pedirla</a></li>
+            <li><a href="#equipo">Equipo</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <a href="tel:+528331517963" class="btn-amber nav-cta" style="font-size:13px; padding:12px 24px;">
+          <i class="fa-solid fa-phone-volume" style="font-size:13px;"></i>
+          Llamar 833 151 7963
+        </a>
+
+        <button class="hamburger" id="hamburger"
+                aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mob-menu" aria-label="Menú móvil">
+      <a href="#why">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#proceso">Cómo pedirla</a>
+      <a href="#equipo">Equipo</a>
+      <a href="#contacto">Contacto</a>
+      <a href="tel:+528331517963">Llamar ahora · 833 151 7963 →</a>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════════════════ -->
+  <main>
+    <section id="hero" aria-labelledby="hero-heading">
+
+      <!-- Parallax background image (fixed) — foto: Pexels (RDNE Stock project), ver img/hero-ambulancia-noche.jpg -->
+      <div class="hero-bg" role="img"
+           aria-label="Paramédicos con chaleco de alta visibilidad junto a una ambulancia durante la noche"></div>
+      <!-- Dark overlays -->
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <!-- Grid texture -->
+      <div class="hero-grid" aria-hidden="true"></div>
+      <!-- Canvas particle orbs -->
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+      <!-- Siren light shafts -->
+      <div class="hero-rays" aria-hidden="true">
+        <div class="hero-ray r1"></div>
+        <div class="hero-ray r2"></div>
+        <div class="hero-ray r3"></div>
+        <div class="hero-ray r4"></div>
+        <div class="hero-ray r5"></div>
+      </div>
+      <!-- Film grain overlay -->
+      <div class="hero-grain" aria-hidden="true"></div>
+      <!-- One-shot scan reveal -->
+      <div class="hero-scanline" aria-hidden="true"></div>
+
+      <!-- ECG heartbeat line -->
+      <div class="hero-ecg" aria-hidden="true">
+        <svg viewBox="0 0 1600 120" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <path class="ecg-base" pathLength="1"
+                d="M0 70 H260 L280 70 L296 58 L312 70 H380 L392 76 L410 14 L432 108 L446 70 H480 L500 52 L526 70 H900 L920 70 L936 58 L952 70 H1020 L1032 76 L1050 14 L1072 108 L1086 70 H1120 L1140 52 L1166 70 H1600"/>
+          <path class="ecg-pulse" pathLength="1"
+                d="M0 70 H260 L280 70 L296 58 L312 70 H380 L392 76 L410 14 L432 108 L446 70 H480 L500 52 L526 70 H900 L920 70 L936 58 L952 70 H1020 L1032 76 L1050 14 L1072 108 L1086 70 H1120 L1140 52 L1166 70 H1600"/>
+        </svg>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+
+          <!-- Live badge -->
+          <div class="hero-badge" id="hero-badge">
+            <div class="badge-dot" aria-hidden="true"></div>
+            Ambulancia 24/7 · Altamira, Tamaulipas
+          </div>
+
+          <!-- Animated title -->
+          <h1 class="hero-title" id="hero-heading">
+            <span class="line"><span>Cuando más</span></span>
+            <span class="line"><span>lo necesitas,</span></span>
+            <span class="line"><span class="accent">ahí estamos.</span></span>
+            <span class="sr-only">Servicio de ambulancia 24/7 en Altamira, Tamaulipas</span>
+          </h1>
+
+          <!-- Subtitle -->
+          <p class="hero-sub" id="hero-sub">
+            Servicio de ambulancia <strong>24/7, los 365 días del año</strong> en Altamira y el sur de Tamaulipas. Traslados locales y foráneos, atención prehospitalaria y cobertura de eventos con <strong>personal profesional y equipo médico de calidad</strong>.
+          </p>
+
+          <!-- CTAs -->
+          <div class="hero-ctas" id="hero-ctas">
+            <a href="tel:+528331517963" class="btn-amber">
+              <i class="fa-solid fa-phone-volume"></i>
+              Llamar ahora · 833 151 7963
+            </a>
+            <a href="https://wa.me/528332648656?text=Hola%2C%20necesito%20un%20servicio%20de%20ambulancia."
+               target="_blank" rel="noopener noreferrer" class="btn-outline">
+              <i class="fa-brands fa-whatsapp"></i>
+              Pedir por WhatsApp
+            </a>
+          </div>
+
+          <!-- Trust bar -->
+          <div class="hero-trust" id="hero-trust" aria-label="Datos clave del servicio">
+            <div class="trust-item">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              24/7 · 365 días
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-route" aria-hidden="true"></i>
+              Traslados locales y foráneos
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              Altamira, Tamps.
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item is-alert">
+              <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i>
+              Riesgo de vida: 911
+            </div>
+          </div>
+
+        </div><!-- /.hero-content -->
+      </div>
+
+      <!-- Scroll cue -->
+      <div class="scroll-cue" aria-hidden="true">
+        <div class="scroll-mouse">
+          <div class="scroll-mouse-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         MARQUEE (contenido generado en js/main.js)
+    ══════════════════════════════════════════════════ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-inner" id="marquee"></div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════
+         WHY — Por qué elegirnos
+    ══════════════════════════════════════════════════ -->
+    <section id="why" aria-labelledby="why-heading">
+      <div class="container">
+
+        <div class="why-header">
+          <div class="reveal">
+            <div class="label">Por qué elegirnos</div>
+            <h2 class="why-quote" id="why-heading">
+              Más que un traslado…
+              <em> somos tu apoyo cuando más lo necesitas.</em>
+            </h2>
+          </div>
+          <p class="why-sub reveal d2">
+            Somos ASCALT Cruz Ambar del Sur de Tamaulipas. Unimos personal profesional, equipo médico de calidad y disponibilidad total para que tú y tu familia tengan atención cuando más la necesitan.
+          </p>
+        </div>
+
+        <div class="features-grid">
+
+          <div class="f-card reveal">
+            <div class="f-num" aria-hidden="true">01</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-clock"></i>
+            </div>
+            <h3>Disponibles 24/7, 365 días</h3>
+            <p>Las emergencias no tienen horario ni días festivos. Nosotros tampoco: estamos listos todos los días del año.</p>
+          </div>
+
+          <div class="f-card reveal d1">
+            <div class="f-num" aria-hidden="true">02</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-user-nurse"></i>
+            </div>
+            <h3>Personal profesional</h3>
+            <p>Un equipo uniformado, preparado y comprometido que te atiende con calma, respeto y criterio profesional.</p>
+          </div>
+
+          <div class="f-card reveal d2">
+            <div class="f-num" aria-hidden="true">03</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-kit-medical"></i>
+            </div>
+            <h3>Equipo médico de calidad</h3>
+            <p>Unidades equipadas con equipo médico de calidad para brindarte atención prehospitalaria y un traslado seguro.</p>
+          </div>
+
+          <div class="f-card reveal d3">
+            <div class="f-num" aria-hidden="true">04</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-hand-holding-heart"></i>
+            </div>
+            <h3>Tu seguridad, nuestra prioridad</h3>
+            <p>Responsables, confiables y siempre listos. Tu salud y tu tranquilidad guían cada servicio que brindamos.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         SERVICIOS — 3 servicios principales
+    ══════════════════════════════════════════════════ -->
+    <section id="servicios" aria-labelledby="serv-heading">
+      <div class="container">
+
+        <div class="servicios-top">
+          <div class="reveal">
+            <div class="label">Nuestros servicios</div>
+            <h2 class="section-title" id="serv-heading">
+              Un servicio<br>
+              <span class="amber">para cada necesidad</span>
+            </h2>
+            <p style="color:var(--gray); margin-top:16px; font-size:15.5px; max-width:460px; line-height:1.7;">
+              De una emergencia médica a un traslado programado o la cobertura de tu evento: te acompañamos con profesionalismo.
+            </p>
+          </div>
+          <div class="reveal d2">
+            <a href="#contacto" class="servicio-pill">
+              Solicitar un servicio
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="servicios-grid">
+
+          <!-- Emergencias — foto real de la unidad Cruz Ambar -->
+          <div class="amb-card reveal">
+            <img class="amb-img"
+              src="img/unidad-cruz-ambar-altamira.jpg"
+              alt="Ambulancia de urgencias básicas Cruz Ambar, delegación Altamira, Tamaulipas"
+              loading="lazy" width="900" height="1600">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(227,38,46,0.2); border-color:rgba(227,38,46,0.55);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-truck-medical" style="color:#ff8f95;"></i>
+              </div>
+              <h3>Atención de emergencias</h3>
+              <p>Atención prehospitalaria en emergencias: llegamos, te atendemos y te acompañamos con profesionalismo.</p>
+              <div class="amb-temp">Ambulancia 24/7 · 365 días</div>
+            </div>
+          </div>
+
+          <!-- Traslados — foto de stock (Pexels) -->
+          <div class="amb-card reveal d1">
+            <img class="amb-img"
+              src="img/servicio-traslados.jpg"
+              alt="Personal de ambulancia atendiendo a un paciente en camilla durante un traslado"
+              loading="lazy" width="1000" height="1500">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(255,184,28,0.18); border-color:rgba(255,184,28,0.5);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-route" style="color:var(--amber);"></i>
+              </div>
+              <h3>Traslados locales y foráneos</h3>
+              <p>Traslados de urgencia o programados, dentro de la ciudad y hacia otras ciudades, con equipo médico de calidad.</p>
+              <div class="amb-temp">Programa tu traslado</div>
+            </div>
+          </div>
+
+          <!-- Eventos — foto de stock (Pexels) -->
+          <div class="amb-card reveal d2">
+            <img class="amb-img"
+              src="img/servicio-eventos.jpg"
+              alt="Escenario iluminado y público en un evento con cobertura médica"
+              loading="lazy" width="1400" height="933">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(47,107,214,0.22); border-color:rgba(96,150,240,0.55);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-calendar-check" style="color:#9cbcf5;"></i>
+              </div>
+              <h3>Cobertura de eventos</h3>
+              <p>Protege a tus asistentes con ambulancia y personal en tu evento. Tu evento, con la tranquilidad que mereces.</p>
+              <div class="amb-temp">Privados · Deportivos · Artísticos</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         PROCESO — Cómo pedir el servicio
+    ══════════════════════════════════════════════════ -->
+    <section id="proceso" aria-labelledby="proceso-heading">
+      <div class="container">
+
+        <div class="proceso-header reveal">
+          <div class="label">Cómo trabajamos</div>
+          <h2 class="section-title" id="proceso-heading">
+            Simple, rápido y <span class="amber">siempre contigo</span>
+          </h2>
+          <p>Pedir nuestro servicio es muy fácil. Llámanos o escríbenos a cualquier hora y nosotros nos encargamos del resto.</p>
+        </div>
+
+        <div class="proceso-grid">
+
+          <div class="proceso-step reveal">
+            <div class="step-number">Paso 01</div>
+            <h3>Llámanos o escríbenos</h3>
+            <p>Comunícate al 833 151 7963 o por WhatsApp al 833 264 8656. Cuéntanos qué necesitas y dónde estás.</p>
+          </div>
+
+          <div class="proceso-step reveal d1">
+            <div class="step-number">Paso 02</div>
+            <h3>Coordinamos tu servicio</h3>
+            <p>Confirmamos disponibilidad, ubicación y detalles de la emergencia, el traslado o tu evento para actuar sin demoras.</p>
+          </div>
+
+          <div class="proceso-step reveal d2">
+            <div class="step-number">Paso 03</div>
+            <h3>Te acompañamos</h3>
+            <p>Nuestro personal profesional te atiende de principio a fin. Porque somos más que un traslado: somos tu apoyo.</p>
+          </div>
+
+        </div>
+
+        <div class="proceso-alert reveal">
+          <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i>
+          <span>¿Emergencia con riesgo de vida? Llama al <strong>911</strong>. Para servicio de ambulancia y traslados, estamos a una llamada.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         EQUIPO — Personal, equipo médico y capacitación
+    ══════════════════════════════════════════════════ -->
+    <section id="equipo" aria-labelledby="equipo-heading">
+      <div class="container">
+        <div class="producto-wrap">
+
+          <!-- Info -->
+          <div class="reveal">
+            <div class="label">Personal y equipo</div>
+            <h2 class="section-title" id="equipo-heading">
+              Profesionales y<br>
+              <span class="amber">equipo de calidad</span>
+            </h2>
+            <p class="producto-lead">
+              Detrás de cada servicio hay un equipo humano comprometido y unidades equipadas para atenderte. Además, preparamos a empresas, escuelas, industria y comercio a través de nuestra área de capacitación.
+            </p>
+
+            <ul class="feature-rows" aria-label="Fortalezas del equipo">
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-user-nurse"></i></div>
+                <div>
+                  <h4>Personal profesional</h4>
+                  <p>Equipo uniformado, preparado y con vocación de servicio para atenderte con calidez y criterio.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-kit-medical"></i></div>
+                <div>
+                  <h4>Equipo médico de calidad</h4>
+                  <p>Contamos con el equipo médico necesario para cada atención y cada traslado.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-truck-medical"></i></div>
+                <div>
+                  <h4>Atención prehospitalaria en emergencias</h4>
+                  <p>Te atendemos desde el primer momento, antes de llegar al hospital.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-chalkboard-user"></i></div>
+                <div>
+                  <h4>Área de capacitación</h4>
+                  <p>Capacitación para empresas, escuelas, industria y comercio: prepara a tu gente para actuar ante una emergencia.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="equipo-cta">
+              <a href="https://wa.me/528332648656?text=Hola%2C%20me%20interesa%20cotizar%20una%20capacitaci%C3%B3n%20para%20mi%20empresa%20o%20instituci%C3%B3n."
+                 target="_blank" rel="noopener noreferrer" class="btn-amber">
+                <i class="fa-brands fa-whatsapp" style="font-size:17px;"></i>
+                Cotizar capacitación
+              </a>
+              <p>Cuéntanos sobre tu empresa o institución y te preparamos una propuesta.</p>
+            </div>
+          </div>
+
+          <!-- Visual — foto real del equipo -->
+          <div class="reveal d2">
+            <div class="panel-scene">
+              <div class="team-photo">
+                <img src="img/equipo-ascalt-altamira.jpg"
+                     alt="Equipo profesional de ASCALT Cruz Ambar con chalecos de alta visibilidad frente a sus ambulancias en Altamira, Tamaulipas"
+                     loading="lazy" width="1599" height="1186">
+              </div>
+              <div class="p-badge pb-tl" aria-hidden="true">
+                <div class="p-badge-dot"></div>
+                Personal profesional
+              </div>
+              <div class="p-badge pb-br" aria-hidden="true">
+                <i class="fa-solid fa-star-of-life" style="color:var(--amber);"></i>
+                Altamira, Tamps.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         STATS — datos reales del servicio
+    ══════════════════════════════════════════════════ -->
+    <section id="stats" aria-label="Datos clave del servicio">
+      <div class="container">
+        <div class="stats-grid reveal" role="list">
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="24" data-suffix="/7"
+                 aria-label="24 horas, 7 días">0</div>
+            <div class="stat-lbl">Atención continua,<br>a toda hora</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="365"
+                 aria-label="365 días">0</div>
+            <div class="stat-lbl">Días al año,<br>incluso festivos</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="2"
+                 aria-label="2 líneas directas">0</div>
+            <div class="stat-lbl">Líneas directas:<br>llamada y WhatsApp</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="3"
+                 aria-label="3 tipos de eventos">0</div>
+            <div class="stat-lbl">Tipos de eventos cubiertos:<br>privados, deportivos y artísticos</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         SECTORES — A quién servimos
+    ══════════════════════════════════════════════════ -->
+    <section id="sectores" aria-labelledby="sec-heading">
+      <div class="container">
+
+        <div class="sectores-hdr reveal">
+          <div class="label">A quién servimos</div>
+          <h2 class="section-title" id="sec-heading">
+            Atención para <span class="amber">cada entorno</span>
+          </h2>
+          <p>Familias, empresas, escuelas, comercios y organizadores de eventos: estamos listos para cuidar de tu gente.</p>
+        </div>
+
+        <div class="sectores-grid" role="list">
+          <div class="sector-card reveal" role="listitem">
+            <i class="fa-solid fa-house-medical sector-icon" aria-hidden="true"></i>
+            <h3>Hogares y familias</h3>
+            <p>Traslados y atención cuando un ser querido lo necesita.</p>
+          </div>
+          <div class="sector-card reveal d1" role="listitem">
+            <i class="fa-solid fa-building sector-icon" aria-hidden="true"></i>
+            <h3>Empresas</h3>
+            <p>Capacitación y respaldo para tu equipo de trabajo.</p>
+          </div>
+          <div class="sector-card reveal d2" role="listitem">
+            <i class="fa-solid fa-industry sector-icon" aria-hidden="true"></i>
+            <h3>Industria</h3>
+            <p>Capacitación y cobertura para tu operación.</p>
+          </div>
+          <div class="sector-card reveal d3" role="listitem">
+            <i class="fa-solid fa-school sector-icon" aria-hidden="true"></i>
+            <h3>Escuelas</h3>
+            <p>Capacitación y cobertura para comunidades escolares.</p>
+          </div>
+          <div class="sector-card reveal d4" role="listitem">
+            <i class="fa-solid fa-store sector-icon" aria-hidden="true"></i>
+            <h3>Comercios</h3>
+            <p>Personal preparado para actuar ante una emergencia.</p>
+          </div>
+          <div class="sector-card reveal d4" role="listitem">
+            <i class="fa-solid fa-champagne-glasses sector-icon" aria-hidden="true"></i>
+            <h3>Eventos</h3>
+            <p>Privados, deportivos y artísticos, con cobertura médica.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         CONTACTO
+    ══════════════════════════════════════════════════ -->
+    <section id="contacto" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <div class="contact-hdr reveal">
+          <div class="label">Contacto</div>
+          <h2 class="section-title" id="contact-heading">
+            Estamos a una <span class="amber">llamada de ti</span>
+          </h2>
+          <p>Llama o escríbenos por WhatsApp. Te atendemos las 24 horas, los 365 días del año.</p>
+        </div>
+
+        <div class="contact-box reveal">
+
+          <!-- Info panel -->
+          <div class="contact-info">
+            <h3>Atención 24/7</h3>
+            <p class="ci-sub">Compromiso, servicio y seguridad para tu bienestar.</p>
+
+            <ul class="ci-list">
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Ubicación</h4>
+                  <p>Altamira, Tamaulipas.<br>
+                     Servicio en el sur de Tamaulipas.</p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-phone-volume"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Teléfonos</h4>
+                  <p>
+                    <a href="tel:+528331517963" class="ci-phone">833 151 7963</a><small>Llamadas</small><br>
+                    <a href="tel:+528332648656" class="ci-phone">833 264 8656</a><small>Llamadas y WhatsApp</small>
+                  </p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>WhatsApp</h4>
+                  <p>Escríbenos al 833 264 8656 y coordinamos tu servicio.</p>
+                  <a href="https://wa.me/528332648656?text=Hola%2C%20necesito%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20ambulancia."
+                     target="_blank" rel="noopener noreferrer" class="ci-wa-link">
+                    Abrir chat →
+                  </a>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon is-alert" aria-hidden="true">
+                  <i class="fa-solid fa-triangle-exclamation"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Teléfono de emergencia</h4>
+                  <p>Riesgo de vida: <a href="tel:911" class="ci-phone" style="font-size:22px;">911</a></p>
+                </div>
+              </li>
+            </ul>
+          </div><!-- /.contact-info -->
+
+          <!-- Form -->
+          <div class="contact-form-wrap">
+            <h3>Solicitar servicio</h3>
+            <form id="wa-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="f-name">Nombre completo</label>
+                  <input type="text" id="f-name" class="form-control"
+                         placeholder="Ej. María Hernández" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-interest">¿Qué necesitas?</label>
+                  <select id="f-interest" class="form-control">
+                    <option>Servicio de ambulancia</option>
+                    <option>Traslado local</option>
+                    <option>Traslado foráneo</option>
+                    <option>Cobertura de evento</option>
+                    <option>Capacitación para empresa o escuela</option>
+                    <option>Otra consulta</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="f-msg">Detalles del servicio</label>
+                <textarea id="f-msg" class="form-control" rows="4" required
+                          placeholder="Indica fecha, lugar de origen y destino, tipo de evento o cualquier detalle importante…"></textarea>
+              </div>
+              <button type="submit" class="form-submit">
+                <i class="fa-brands fa-whatsapp"></i>
+                Solicitar por WhatsApp
+              </button>
+              <p class="form-note">
+                Al enviar serás redirigido a WhatsApp para continuar la conversación.<br>
+                ¿Es urgente? Llámanos directo al <a href="tel:+528331517963" style="color:var(--amber); font-weight:700; text-decoration:none;">833 151 7963</a>.
+              </p>
+            </form>
+          </div>
+
+        </div><!-- /.contact-box -->
+      </div>
+    </section>
+  </main>
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════════════ -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <img src="img/emblema-ascalt.png" alt="Emblema de ASCALT" width="41" height="44" loading="lazy">
+          <div class="footer-logo-copy">
+            <span>ASCALT</span>
+            <span>CRUZ AMBAR</span>
+          </div>
+        </div>
+        <p class="footer-copy">
+          &copy; <span id="year"></span> ASCALT Cruz Ambar del Sur de Tamaulipas.<br>
+          Todos los derechos reservados. Altamira, Tamps.
+        </p>
+        <div class="footer-socials">
+          <a href="tel:+528331517963" class="footer-soc" aria-label="Llamar al 833 151 7963">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+          <a href="https://wa.me/528332648656" target="_blank"
+             rel="noopener noreferrer" class="footer-soc" aria-label="WhatsApp 833 264 8656">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Sello institucional -->
+      <div class="footer-affil">
+        <img src="img/sello-cruz-ambar.png"
+             alt="Sello Cruz Ambar — Radio Brigada de Auxilio de la República Mexicana A.C."
+             width="40" height="41" loading="lazy">
+        <p>
+          <strong>Cruz Ambar</strong> · Radio Brigada de Auxilio de la República Mexicana A.C.<br>
+          «Dar todo por nada» — Compromiso, servicio y seguridad para tu bienestar.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════════════════════
+       FLOATING BUTTONS — Llamar + WhatsApp
+  ══════════════════════════════════════════════════════ -->
+  <a href="tel:+528331517963"
+     class="call-btn" aria-label="Llamar ahora al 833 151 7963">
+    <i class="fa-solid fa-phone-volume"></i>
+  </a>
+  <a href="https://wa.me/528332648656?text=Hola%2C%20vi%20su%20sitio%20web%20y%20necesito%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20ambulancia."
+     target="_blank" rel="noopener noreferrer"
+     class="wa-btn" aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
