@@ -117,7 +117,7 @@
         return;
       }
 
-      const phone = '528332648656'; // WhatsApp de ASCALT Cruz Ambar (833 264 8656)
+      const phone = '528331517963'; // WhatsApp de ASCALT Cruz Ambar (833 151 7963)
       const text  = encodeURIComponent(
         `Hola ASCALT Cruz Ambar 🚑\n\nSoy *${name}*.\nNecesito: *${interest}*.\n\n${message}`
       );
